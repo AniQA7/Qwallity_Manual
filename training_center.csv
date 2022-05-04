@@ -1,0 +1,112 @@
+﻿sep=,
+"ID","Title","Created By","Created On","Estimate","Forecast","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Type","Updated By","Updated On"
+"C157","Verify all the fields  and buttons are present  in the application as required","Anna Harutyunyan","3/15/2022 6:13 PM","","","High","","Test Cases","0","","Test Cases","1. Check all the necessary buttons and fields are present
+Expected Result:
+All the necessary buttons and fields should be visable","","","All the necessary buttons and fields should be visable","","","Check all the necessary buttons and fields are present","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 1:43 PM"
+"C158","Verify   the functionality of the search button","Anna Harutyunyan","3/15/2022 6:16 PM","","","High","","Test Cases","0","","Test Cases","1. Click on the button Search
+Expected Result:
+The button should be clickable
+2. Choose the Training center
+Expected Result:
+The system should allow to choose
+3. Fill the training name
+Expected Result:
+The system should allow to fill the field
+4. Click on Search button
+Expected Result:
+The required information should be displayed","","","The button should be clickable","","","Click on the button Search","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 2:54 PM"
+"","","","","","","","","","","","","","","","The system should allow to choose","","","Choose the Training center","","","","",""
+"","","","","","","","","","","","","","","","The system should allow to fill the field","","","Fill the training name","","","","",""
+"","","","","","","","","","","","","","","","The required information should be displayed","","","Click on Search button","","","","",""
+"C159","Verify the possibility to write in the  fields which are intended for writing","Anna Harutyunyan","3/15/2022 6:26 PM","","","High","","Test Cases","0","","Test Cases","1. Try to write smth in every field
+Expected Result:
+The system should let to write in all fields","","","The system should let to write in all fields","","","Try to write smth in every field","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 11:50 AM"
+"C160","Verify all dropdowns are workable","Anna Harutyunyan","3/15/2022 6:28 PM","","","High","","Test Cases","0","","Test Cases","1. Click on dropdown of training center
+Expected Result:
+Dropdown should be available and  should open the required information
+2. Click on dropdown of start date 
+Expected Result:
+Dropdown should be available and  should open the required information
+3. Click on dropdown of end date
+Expected Result:
+Dropdown should be available and  should open the required information","","","Dropdown should be available and  should open the required information","","","Click on dropdown of training center","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 2:05 PM"
+"","","","","","","","","","","","","","","","Dropdown should be available and  should open the required information","","","Click on dropdown of start date ","","","","",""
+"","","","","","","","","","","","","","","","Dropdown should be available and  should open the required information","","","Click on dropdown of end date","","","","",""
+"C161","Verify disability to write smth in  the fields with dropdowns","Anna Harutyunyan","3/15/2022 6:47 PM","","","High","","Test Cases","0","","Test Cases","1. Try to write smth in the training center field
+Expected Result:
+The system should allow only to choose smth 
+2. Try to write smth in the start date field
+Expected Result:
+The system should allow only to choose smth 
+3. Try to write smth in the end date field
+Expected Result:
+The system should allow only to choose smth","","","The system should allow only to choose smth ","","","Try to write smth in the training center field","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 2:08 PM"
+"","","","","","","","","","","","","","","","The system should allow only to choose smth ","","","Try to write smth in the start date field","","","","",""
+"","","","","","","","","","","","","","","","The system should allow only to choose smth ","","","Try to write smth in the end date field","","","","",""
+"C163","Verify "" add new training  course"" button become  active after filling training name field","Anna Harutyunyan","3/15/2022 7:41 PM","","","High","","Test Cases","0","","Test Cases","1. Write training name in the training name field
+Expected Result:
+1.The system should  accept the filling 
+
+2.Add new training course  button  should become active","","","1.The system should  accept the filling 
+
+2.Add new training course  button  should become active ","","","Write training name in the training name field","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 2:11 PM"
+"C164","Verify possibility to do search choosing  only training center ,without filling training name","Anna Harutyunyan","3/15/2022 7:53 PM","","","High","","Test Cases","0","","Test Cases","1. Click on dropdown of training center
+Expected Result:
+The dropdown should be opened
+2. Choose the training center
+Expected Result:
+The system should allow to do this action
+3. Click on the search button
+Expected Result:
+The search data should be displayed on the screen","","","The dropdown should be opened","","","Click on dropdown of training center","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 3:47 PM"
+"","","","","","","","","","","","","","","","The system should allow to do this action","","","Choose the training center","","","","",""
+"","","","","","","","","","","","","","","","The search data should be displayed on the screen","","","Click on the search button","","","","",""
+"C166","Verify   the program  behavior in  case of   filling   not available  training  name","Anna Harutyunyan","3/15/2022 8:08 PM","","","High","","Test Cases","0","","Test Cases","1. Write the  training name in the training name field
+Expected Result:
+The system should  accept the filling 
+2. Click on the button  search
+Expected Result:
+The pop up should be displayed-there are no results found","","","The system should  accept the filling ","","","Write the  training name in the training name field","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 2:26 PM"
+"","","","","","","","","","","","","","","","The pop up should be displayed-there are no results found","","","Click on the button  search","","","","",""
+"C167","Verify the calculation of duration after choosing Start date  and End date","Anna Harutyunyan","3/15/2022 8:32 PM","","","High","","Test Cases","0","","Test Cases","1. Choose Start date
+Expected Result:
+The date-picker  should be opened
+2. Choose End date
+Expected Result:
+The date-picker  should be opened
+3. Check the calculation of duration
+Expected Result:
+the duration should display right number of days","","","The date-picker  should be opened","","","Choose Start date","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 6:29 PM"
+"","","","","","","","","","","","","","","","The date-picker  should be opened","","","Choose End date","","","","",""
+"","","","","","","","","","","","","","","","the duration should display right number of days","","","Check the calculation of duration","","","","",""
+"C207","Verify possibility to do search filling only Training   name field  ,without choosing Training center","Anna Harutyunyan","3/16/2022 3:56 PM","","","Medium","","Test Cases","0","","Test Cases","1. Fill the Training name field
+Expected Result:
+The app should allow to fill the field
+2. Click on Search button
+Expected Result:
+The search data should be displayed on the screen","","","The app should allow to fill the field","","","Fill the Training name field","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 3:56 PM"
+"","","","","","","","","","","","","","","","The search data should be displayed on the screen","","","Click on Search button","","","","",""
+"C230","Verify the functionality of Reset button","Anna Harutyunyan","3/16/2022 6:33 PM","","","High","","Test Cases","0","","Test Cases","1. Click on the button Reset
+Expected Result:
+The button should be clickable
+2. Choose the Training center
+Expected Result:
+	
+The system should allow to choose
+3. Fill the Training name
+Expected Result:
+The system should allow to fill the field
+4. Click on Reset button
+Expected Result:
+Input fields should be cleared","","","The button should be clickable","","","Click on the button Reset","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/16/2022 6:41 PM"
+"","","","","","","","","","","","","","","","	
+The system should allow to choose","","","Choose the Training center","","","","",""
+"","","","","","","","","","","","","","","","The system should allow to fill the field","","","Fill the Training name","","","","",""
+"","","","","","","","","","","","","","","","Input fields should be cleared","","","Click on Reset button","","","","",""
+"C259","Verify the behavior of the app if search  more than one training names at the same time","Anna Harutyunyan","3/17/2022 1:22 PM","","","High","","Test Cases","0","","Test Cases","1. Fill the field Training name more than one  training names
+Expected Result:
+The system should allow to fill
+2. Click on the button Search
+Expected Result:
+The message should be displayed -There is no permission to search more than one training name at the same time","","","The system should allow to fill","","","Fill the field Training name more than one  training names","Anna Harutyunyan","S22","Other","Anna Harutyunyan","3/17/2022 1:22 PM"
+"","","","","","","","","","","","","","","","The message should be displayed -There is no permission to search more than one training name at the same time","","","Click on the button Search","","","","",""
